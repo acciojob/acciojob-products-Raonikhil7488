@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto auto auto; 
+    grid-gap: 24px; 
+  }
+  
+  .dsa, .mern, .acciojob, .business-analytics, .spring {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+ 
+  .dsa {
+    background-color:brown;
+    width: 50%;
+    align-self: center;
+  }
+  
+  .mern {
+    background-color: orange;
+    width: 30%;
+    height: 75px;
+    align-self: center; 
+  }
+  
+  .acciojob {
+    background-color: blue;
+    grid-column: 1 / span 3; 
+    width: 75%;
+    justify-self: center;
+  }
+  
+  .business-analytics {
+    background-color: green;
+    width: 80%;
+    align-self: end; 
+  }
+  
+  .spring {
+    background-color: red;
+    width: 50%;
+    margin-left: 10px;
+    height: 50px;
+  }
+  
